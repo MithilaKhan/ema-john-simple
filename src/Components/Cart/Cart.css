@@ -1,0 +1,11 @@
+.orderSummary{
+   background: #FFE0B3;
+   padding: 24px;
+}
+.orderSummary h6{
+   font-size: 19px;
+   margin: 0;
+}
+.orderSummary:hover{
+   background-color: orange;
+}
