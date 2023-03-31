@@ -11,6 +11,7 @@ const Products = () => {
       .then(data => setProducts(data))
    },[]);
    const btnCartHandler =(product)=>{
+      console.log(product)
       const newCart = [...cart , product]
       setCart(newCart)
    }
